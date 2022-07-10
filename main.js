@@ -172,3 +172,25 @@ console.log(emptyArray);
 // 4 = unshift = add data in the first index of an array 
 emptyArray.unshift('asha',[{name:'mulki', age:30, height:3.5}])
 console.log(emptyArray);
+
+// 5 = splice = Enables you to get any index you want from array 
+console.log(emptyArray);
+
+emptyArray.splice(2)
+console.log(emptyArray);
+
+// 6 = you can convert an array to a string by tolocaleString or toString
+console.log(emptyArray.toString());
+
+// 7 = join 
+var jina = "abdikadir";
+console.log(jina);
+
+var zenu = [
+    "ethiopia", "somalia", "kenya"
+]
+console.log(zenu.join(`:${jina}`))
+
+// 8 = sort = arranges an array in alphabetical order 
+var book = ['sanifu', 'mufti', 'kiswahili', 'english', 'geography']
+console.log(book.sort());
