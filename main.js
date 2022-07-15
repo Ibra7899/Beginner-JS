@@ -194,3 +194,61 @@ console.log(zenu.join(`:${jina}`))
 // 8 = sort = arranges an array in alphabetical order 
 var book = ['sanifu', 'mufti', 'kiswahili', 'english', 'geography']
 console.log(book.sort());
+
+// IF STATEMENT 
+var car = "toyot";
+if(car == "toyota"){
+    console.log('true');
+}else {
+    console.log('false');
+}
+
+// strict comparison operator 
+var myDigit = "10";
+if(myDigit === '10'){
+    console.log('true');
+}else {
+    console.log('false');
+}
+
+//Or Operator 
+if(myDigit === '10' || car === 'toyota'){
+    console.log('true');
+}else {
+    console.log('false');
+}
+
+//logical and Operator
+var honda = "fit";
+var toyota = "wish";
+if(honda === "fit" && toyota === "wish"){
+    console.log('true');
+}else {
+    console.log('false');
+}
+
+//not equal to 
+var kenya = "nairobi";
+var  tanzania = "Daresalam";
+if(kenya != "nairobi"){
+    console.log('true');
+}else {
+    console.log('false');
+}
+
+// nested if 
+var laptop = "lenovo";
+var laptop = "leno";
+var laptop = "lenov";
+
+
+if(laptop == "lenovo"){
+    console.log('true');
+}else if (laptop == "leno"){
+    console.log('true');
+}else if(laptop == "lenov"){
+    console.log('true');
+}else {
+    console.log('false');
+}
+
