@@ -108,7 +108,7 @@ switch(laptop){
 //     image.display = "none";
 //     text.display = "block";
 // },5000)
-// clearInterval(timeout);
+// clearInterval(timeout);   
 
 // Equilateral = All sides are equal;
 // Isoceles = two sides are equal;
@@ -243,3 +243,92 @@ console.log(Math.floor(Math.random()*100));
 // Type off 
 console.log(typeof  "Naima");
 console.log(typeof 4);
+
+//FOR LOOPS
+var school = "Yangu College";
+var college = "Masai College";
+
+for(var i = 0; i < school.length; i++){
+    console.log(school[i]);
+};
+for(var i = 0; i < college.length; i++){
+    console.log(college[i]);
+};
+
+var myFiles = document.getElementById("files");
+myFiles.onchange = function(e){
+    // console.log(e);
+    // console.log(e.target);
+    // console.log(e.target.files);
+    var files = e.target.files;
+    for(var i = 0; i<e.target.files.length; i++){
+        console.log(files[i]);
+    }
+};
+
+var myDoc = document.getElementById("docs");
+myDoc.onchange = function(e){
+    // console.log(e);
+    // console.log(e.target);
+    console.log(e.target.files);
+    var docs = e.target.files;
+    for(var i = 0; i < e.target.files.length; i++){
+        console.log(docs[i]);
+    }
+};
+
+var countries = ['kenya', 'Uganda', 'Tanzania', 'Rwanda']
+// console.log(countries[0]);
+// document.getElementById("loops").innerHTML = countries;
+for(var i = 0; i < countries.length; i++){
+    // document.getElementById("loops").innerHTML = countries[i];
+    console.log(countries[i]);
+};
+
+//FOR IN
+for(index in countries){
+    console.log(index);
+    console.log(countries[index]);
+};
+
+var cities = ['toronto','quebec','vancouver','british'];
+// for(var i = 0; i<cities.length; i++){
+//     console.log(cities[i]);
+// }
+for(index in cities){
+    console.log(cities[index]);
+    console.log(index);
+};
+
+// FOR OF 
+for(city of cities){
+    console.log(city);
+};
+for(county of countries){
+    console.log(county);
+};
+
+// While LOOP
+var i = 0;
+while(i < 5){
+    console.log('Hello world');
+    i++
+};
+var i = 0;
+while(i < cities.length){
+    console.log(cities[i]);
+    i++
+};
+
+// while do loop 
+var j = 0;
+do{
+   console.log(countries[j]);
+   j++;
+}while(j<countries.length);
+
+var k = 0;
+do{
+    console.log(cities[k]);
+    k++
+}while(k<cities.length);
