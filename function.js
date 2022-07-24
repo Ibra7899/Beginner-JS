@@ -332,3 +332,5 @@ do{
     console.log(cities[k]);
     k++
 }while(k<cities.length);
+
+
