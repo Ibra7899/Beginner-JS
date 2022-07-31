@@ -1,3 +1,5 @@
+// 3rd page of learning javascript 
+
 // // alert("heyy");
 
 // var checkout = "ibrahim";
@@ -195,6 +197,8 @@
 
 
 // ApIs 
+// 25th/ july / 2022 
+
 // FETCH 
 // var url = "https://jsonplaceholder.typicode.com/users";
 

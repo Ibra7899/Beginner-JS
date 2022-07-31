@@ -1,3 +1,5 @@
+// 1st page of learning javascript 
+
 //(use strict mode defines that javascript code should be executed in "strict mode")
 // "use strict"
 

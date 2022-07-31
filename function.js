@@ -1,4 +1,4 @@
-
+// 2nd page of learning javascript 
 
 // Functions 
 
